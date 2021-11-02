@@ -76,7 +76,8 @@ class BaiduRest:
         clip.stop()
 
     def speak2(self,txt):
-        #print(txt)
+
+       # print(txt)
         engine = pyttsx3.init()# 创建对象
         rate = engine.getProperty('rate')# 获取当前语速（默认值）
         engine.setProperty('rate', 135)  # 设置一个新的语速

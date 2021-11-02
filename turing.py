@@ -3,7 +3,7 @@ import requests
 import json
 
 class Turing():
-    def __init__(self, key='29ccde937cd544afbd45667b4be9805e', id='12345'):
+    def __init__(self, key='40d56dcf5e1d4edc8a891eb824a11437', id='123456'):
         self.key = key
         self.id = id
 
